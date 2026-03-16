@@ -174,8 +174,8 @@ async def scrape_jobs():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"✅ jobs.json gespeichert — {len(jobs)} Jobs!")
 
-    # ── Nach Bundesland + Stadt gruppieren ──────────────────────────────────
-    regions = {}  # key: (state, city) → list of jobs
+    # Nach Bundesland + Stadt gruppieren
+    regions = {}
     for j in jobs:
         state = j.get("state", "Unbekannt")
         city = j.get("city", "Unbekannt")
@@ -184,14 +184,13 @@ async def scrape_jobs():
             regions[key] = []
         regions[key].append(j)
 
-    # Regionen sortieren: Bundesland alphabetisch, dann Stadt alphabetisch
     sorted_regions = sorted(regions.keys(), key=lambda k: (k[0].lower(), k[1].lower()))
 
-    # ── Regionsseiten generieren ─────────────────────────────────────────────
+    # Regionsseiten generieren
     import os
     os.makedirs("regions", exist_ok=True)
 
-    region_slugs = {}  # (state, city) → slug
+    region_slugs = {}
 
     for (state, city) in sorted_regions:
         slug = f"region-{slugify(state)}-{slugify(city)}"
@@ -236,7 +235,7 @@ async def scrape_jobs():
 
     print(f"✅ {len(sorted_regions)} Regionsseiten generiert!")
 
-    # ── Index-Seite generieren ───────────────────────────────────────────────
+    # Index-Seite generieren
     index_rows = ""
     current_state = None
 
