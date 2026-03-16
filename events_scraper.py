@@ -25,16 +25,23 @@ async def scrape_events():
                 await page.goto(url, timeout=60000, wait_until="domcontentloaded")
                 await page.wait_for_timeout(4000)
 
-                # "Mehr zeigen" klicken bis alle Events geladen sind
-                for _ in range(10):
-                    try:
-                        mehr_btn = page.locator("button:has-text('Mehr zeigen'), a:has-text('Mehr zeigen')")
-                        if await mehr_btn.count() > 0:
-                            await mehr_btn.first.click()
-                            await page.wait_for_timeout(2000)
-                        else:
-                            break
-                    except:
+                # "Mehr zeigen" so oft klicken bis Button weg ist (max 10x)
+                for i in range(10):
+                    clicked = await page.evaluate("""
+                        () => {
+                            const buttons = Array.from(document.querySelectorAll('button'));
+                            const btn = buttons.find(b =>
+                                b.innerText && b.innerText.trim() === 'Mehr zeigen'
+                            );
+                            if (btn) { btn.click(); return true; }
+                            return false;
+                        }
+                    """)
+                    if clicked:
+                        print(f"  🖱 Klick {i+1} auf 'Mehr zeigen'")
+                        await page.wait_for_timeout(2000)
+                    else:
+                        print(f"  ✅ Kein 'Mehr zeigen' Button mehr — {i} Klicks gesamt")
                         break
 
                 # Events aus DOM extrahieren
@@ -45,10 +52,8 @@ async def scrape_events():
 
                 print(f"  Gefundene DOM-Elemente: {len(event_items)}")
 
-                # Fallback: alle Elemente mit Datum + Titel heuristisch finden
+                # Fallback
                 if len(event_items) == 0:
-                    content = await page.content()
-                    # Direkte DOM-Abfrage nach Struktur im Screenshot
                     event_items = await page.query_selector_all(
                         "li:has(time), div:has(time), "
                         ".teaser, [class*='teaser'], "
@@ -83,7 +88,7 @@ async def scrape_events():
                                 else:
                                     detail_url = f"https://www.basf.com{href}"
 
-                        # Kalender-Link (.ics)
+                        # Kalender-Link
                         cal_el = await item.query_selector("a:has-text('Kalender'), a[href*='.ics'], a[href*='calendar']")
                         cal_url = ""
                         if cal_el:
@@ -97,7 +102,7 @@ async def scrape_events():
                         if loc_el:
                             location = (await loc_el.inner_text()).strip()
 
-                        # Nur gültige Events (müssen Titel haben)
+                        # Nur gültige Events
                         if title and len(title) > 3 and title not in ["Mehr zeigen", "Alles Entfernen"]:
                             event = {
                                 "title": title,
