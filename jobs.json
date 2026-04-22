@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-04-22T13:43:46Z",
-  "total_active": 203,
+  "last_updated": "2026-04-22T17:03:21Z",
+  "total_active": 204,
   "jobs": [
+    {
+      "job_id": "135008",
+      "title": "Corporate Compliance Support Coatings (m/f/d)",
+      "url": "https://basf.jobs/job-invite/135008/?locale=en_US",
+      "city": "Münster",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany",
+      "company": "BASF Coatings GmbH",
+      "business_unit": "EMEA",
+      "department": "EC/OL Legal & Compliance Coatings",
+      "job_field": "Legal, Tax & Insurance",
+      "job_level": "Professional",
+      "job_type": "Permanent",
+      "hybrid": false,
+      "date_posted": "2026-04-22T14:00:10Z",
+      "description": "WELCOME TO BASF &#13; In the Coatings division, we offer far more than just paints and coatings. Our approach is to put the needs of our customers at the center and always think one step ahead. Our motto ‘We always go beyond the surface’ makes it clear that we are not only focused on the products themselves, but also on the reasons why we develop them. We are interested in creating innovative solutions that promote future growth and fulfil the requirements of the market. With our extensive knowl",
+      "recruiter": {
+        "name": "Romy Marie Gründel",
+        "email": "romy.gruendel@basf.com",
+        "phone": "+49 30 2005-56730"
+      }
+    },
     {
       "job_id": "135730",
       "title": "Praktikum Rohstoffanalytik mit anschließender Masterarbeit (m/w/d)",
