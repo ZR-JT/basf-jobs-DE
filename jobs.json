@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-23T06:07:23Z",
-  "total_active": 204,
+  "last_updated": "2026-04-23T09:46:03Z",
+  "total_active": 203,
   "jobs": [
     {
       "job_id": "135008",
@@ -502,27 +502,6 @@
       }
     },
     {
-      "job_id": "134966",
-      "title": "Ausbildung Mechatroniker:in (m/w/d)",
-      "url": "https://basf.jobs/job-invite/134966/?locale=en_US",
-      "city": "Ludwigshafen am Rhein",
-      "state": "Rheinland-Pfalz",
-      "country": "Germany",
-      "company": "BASF SE",
-      "department": "ESH/VT Technikausbildung Mechatroniker",
-      "job_field": "Production, Maintenance & Technical Services",
-      "job_level": "Pupil (only Germany)",
-      "job_type": "Temporary",
-      "hybrid": false,
-      "date_posted": "2026-04-14T22:00:00Z",
-      "description": "ELEMENTE DEINER AUSBILDUNG &#13; Wenn ein Gerät den Geist aufgegeben hat, gibst du es noch lange nicht auf? Du tüftelst für dein Leben gerne? Deine Lieblingsfächer sind Mathe und Physik, aber noch viel lieber hättest du öfter die Fächer Mechanik, Elektrotechnik und IT? Das klingt ganz so, als wäre ein Beruf in diesem Bereich perfekt für dich! Wenn du es nicht mehr abwarten kannst, dich um technische Einrichtungen zu kümmern, sie am Laufen zu halten oder zu verbessern, dann bewirb dich für eine A",
-      "recruiter": {
-        "name": "Katrin Statnick",
-        "email": "katrin.statnick@basf.com",
-        "phone": "+49 30 2005-58118"
-      }
-    },
-    {
       "job_id": "135111",
       "title": "Bachelor of Engineering - Elektrotechnik - Schwerpunkt Automatisierungstechnik (m/w/d)",
       "url": "https://basf.jobs/job-invite/135111/?locale=en_US",
@@ -712,6 +691,27 @@
       }
     },
     {
+      "job_id": "134966",
+      "title": "Ausbildung Mechatroniker:in (m/w/d)",
+      "url": "https://basf.jobs/job-invite/134966/?locale=en_US",
+      "city": "Ludwigshafen am Rhein",
+      "state": "Rheinland-Pfalz",
+      "country": "Germany",
+      "company": "BASF SE",
+      "department": "ESH/VT Technikausbildung Mechatroniker",
+      "job_field": "Production, Maintenance & Technical Services",
+      "job_level": "Pupil (only Germany)",
+      "job_type": "Temporary",
+      "hybrid": false,
+      "date_posted": "2026-04-14T22:00:00Z",
+      "description": "ELEMENTE DEINER AUSBILDUNG &#13; Wenn ein Gerät den Geist aufgegeben hat, gibst du es noch lange nicht auf? Du tüftelst für dein Leben gerne? Deine Lieblingsfächer sind Mathe und Physik, aber noch viel lieber hättest du öfter die Fächer Mechanik, Elektrotechnik und IT? Das klingt ganz so, als wäre ein Beruf in diesem Bereich perfekt für dich! Wenn du es nicht mehr abwarten kannst, dich um technische Einrichtungen zu kümmern, sie am Laufen zu halten oder zu verbessern, dann bewirb dich für eine A",
+      "recruiter": {
+        "name": "Katrin Statnick",
+        "email": "katrin.statnick@basf.com",
+        "phone": "+49 30 2005-58118"
+      }
+    },
+    {
       "job_id": "135233",
       "title": "Bachelor of Science - International Business Administration & Information Technology (m/w/d)",
       "url": "https://basf.jobs/job-invite/135233/?locale=en_US",
@@ -817,27 +817,6 @@
       }
     },
     {
-      "job_id": "135284",
-      "title": "Bachelor of Arts Betriebswirtschaftslehre - Risk and Insurance Management (m/w/d)",
-      "url": "https://basf.jobs/job-invite/135284/?locale=en_US",
-      "city": "Ludwigshafen am Rhein",
-      "state": "Rheinland-Pfalz",
-      "country": "Germany",
-      "company": "BASF SE",
-      "department": "ESH/VC Kaufmännische und IT-Ausbildung",
-      "job_field": "Legal, Tax & Insurance",
-      "job_level": "Pupil (only Germany)",
-      "job_type": "Temporary",
-      "hybrid": false,
-      "date_posted": "2026-04-14T22:00:00Z",
-      "description": "ELEMENTE DEINES DUALEN STUDIUMS &#13; Betriebswirtschaft hat dich schon immer interessiert und auch das Thema Risikomanagement klingt für dich spannend? Was muss ein großer Konzern versichern und warum hat er eigene Versicherungsunternehmen? Wenn dich das interessiert, dann ist dieses praxisnahe Studium genau richtig für dich! Neben den theoretischen Grundlagen in BWL, VWL und Recht bis hin zum Marketing-Management, lernst du in verschiedenen Praxisphasen auch unterschiedliche Versicherungsspart",
-      "recruiter": {
-        "name": "Laura Juliane Mierke",
-        "email": "juliane.mierke@basf.com",
-        "phone": "+49 30 2005-58922"
-      }
-    },
-    {
       "job_id": "135229",
       "title": "Bachelor of Science - International Business Administration (m/w/d)",
       "url": "https://basf.jobs/job-invite/135229/?locale=en_US",
@@ -852,6 +831,27 @@
       "hybrid": false,
       "date_posted": "2026-04-14T22:00:00Z",
       "description": "ELEMENTE DEINES DUALEN STUDIUMS &#13; Betriebswirtschaft hat dich schon immer interessiert? Auch die Praxis findest du spannend? Dann ist dieses Studium genau richtig für dich! Durch die Verbindung von Theorie und Praxis wirst du zum wahren Allrounder. Du durchläufst verschiedene Abteilungen, wie zum Beispiel Marketing, Vertrieb, Personal und Controlling. Dabei lernst du, wie man ein Unternehmen führt, organisiert und steuert. Wesentliche Bestandteile dabei sind die Digitalisierung von Geschäfts",
+      "recruiter": {
+        "name": "Laura Juliane Mierke",
+        "email": "juliane.mierke@basf.com",
+        "phone": "+49 30 2005-58922"
+      }
+    },
+    {
+      "job_id": "135284",
+      "title": "Bachelor of Arts Betriebswirtschaftslehre - Risk and Insurance Management (m/w/d)",
+      "url": "https://basf.jobs/job-invite/135284/?locale=en_US",
+      "city": "Ludwigshafen am Rhein",
+      "state": "Rheinland-Pfalz",
+      "country": "Germany",
+      "company": "BASF SE",
+      "department": "ESH/VC Kaufmännische und IT-Ausbildung",
+      "job_field": "Legal, Tax & Insurance",
+      "job_level": "Pupil (only Germany)",
+      "job_type": "Temporary",
+      "hybrid": false,
+      "date_posted": "2026-04-14T22:00:00Z",
+      "description": "ELEMENTE DEINES DUALEN STUDIUMS &#13; Betriebswirtschaft hat dich schon immer interessiert und auch das Thema Risikomanagement klingt für dich spannend? Was muss ein großer Konzern versichern und warum hat er eigene Versicherungsunternehmen? Wenn dich das interessiert, dann ist dieses praxisnahe Studium genau richtig für dich! Neben den theoretischen Grundlagen in BWL, VWL und Recht bis hin zum Marketing-Management, lernst du in verschiedenen Praxisphasen auch unterschiedliche Versicherungsspart",
       "recruiter": {
         "name": "Laura Juliane Mierke",
         "email": "juliane.mierke@basf.com",
@@ -1398,28 +1398,6 @@
         "name": "Silke Pudicke",
         "email": "silke.pudicke@basf.com",
         "phone": "+49 30 2005-58449"
-      }
-    },
-    {
-      "job_id": "135127",
-      "title": "Mitarbeiter:in Lager und Transport (m/w/d)",
-      "url": "https://basf.jobs/job-invite/135127/?locale=en_US",
-      "city": "Grenzach-Wyhlen",
-      "state": "Baden-Württemberg",
-      "country": "Germany",
-      "company": "BASF Grenzach GmbH",
-      "business_unit": "EMEA",
-      "department": "EMX/EG Site Logistics Operations",
-      "job_field": "Logistics & Supply Chain Management",
-      "job_level": "Professional",
-      "job_type": "Temporary",
-      "hybrid": false,
-      "date_posted": "2026-03-30T11:39:34Z",
-      "description": "WILLKOMMEN BEI UNS &#13; Wir bei Care Chemicals handeln aus Leidenschaft. Unsere Mitarbeiter:innen sind unser wertvollstes Gut und wir pflegen eine Kultur der Empathie, der Unterstützung und des Wachstums. Auf diese Weise befähigen wir unser Team, sich persönlich und beruflich weiterzuentwickeln. Mit vereinten Kräften engagieren wir uns für die Entwicklung nachhaltiger, digitaler und innovativer Lösungen für eine bessere Zukunft. Pflegende Hautcremes, milde Shampoos, Sonnenschutzmittel, schonend",
-      "recruiter": {
-        "name": "Corinna Granterath",
-        "email": "corinna.granterath@basf.com",
-        "phone": "+49 30 2005-59302"
       }
     },
     {
