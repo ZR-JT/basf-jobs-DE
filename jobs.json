@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-05-07T10:25:36Z",
+  "last_updated": "2026-05-07T14:12:38Z",
   "total_active": 203,
   "jobs": [
+    {
+      "job_id": "136083",
+      "title": "Senior Auditor (m/f/d)",
+      "url": "https://basf.jobs/job-invite/136083/?locale=en_US",
+      "city": "Münster",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany",
+      "company": "BASF Coatings GmbH",
+      "business_unit": "EMEA",
+      "department": "EC/CO Operational Planning & Controlling",
+      "job_field": "Finance, Controlling & Audit",
+      "job_level": "Professional",
+      "job_type": "Permanent",
+      "hybrid": false,
+      "date_posted": "2026-05-07T12:51:15Z",
+      "description": "WELCOME TO BASF &#13; In the Coatings division, we offer far more than just paints and coatings. Our approach is to put the needs of our customers at the centre and always think one step ahead. Our motto ‘We always go beyond the surface’ makes it clear that we are not only focussed on the products themselves, but also on the reasons why we develop them. We are interested in creating innovative solutions that promote future growth and fulfil the requirements of the market. With our extensive know",
+      "recruiter": {
+        "name": "Melissa Amina Rahmani",
+        "email": "melissa.rahmani@basf.com",
+        "phone": "+49 30 2005-58073"
+      }
+    },
     {
       "job_id": "138224",
       "title": "Buchhalter (m/w/d)",
@@ -2099,28 +2121,6 @@
         "name": "Lea Sophie Günther",
         "email": "lea-sophie.guenther@basf.com",
         "phone": "+49 30 2005-56150"
-      }
-    },
-    {
-      "job_id": "134206",
-      "title": "Risk Management System (RMS) & Internal Control System (ICS)  Team Lead (m/f/d)",
-      "url": "https://basf.jobs/job-invite/134206/?locale=en_US",
-      "city": "Limburgerhof",
-      "state": "Rheinland-Pfalz",
-      "country": "Germany",
-      "company": "BASF Agricultural Solutions Deutschland GmbH",
-      "business_unit": "EMEA",
-      "department": "APB/C IPO Readiness Project",
-      "job_field": "Finance, Controlling & Audit",
-      "job_level": "Professional",
-      "job_type": "Permanent",
-      "hybrid": true,
-      "date_posted": "2026-03-16T15:55:46Z",
-      "description": "WELCOME TO BASF &#13; We are BASF in Agriculture and everything we do, we do for the love of farming, and the biggest job on Earth. We are an internationally successful company of the BASF Group. Our solutions are purpose-designed for different crop systems. Connecting seeds and traits, crop protection products, digital tools and sustainability approaches, to help deliver the best possible outcomes for farmers, growers and our other stakeholders along the value chain. With teams in the lab, fiel",
-      "recruiter": {
-        "name": "Isabel Maisack",
-        "email": "isabel.maisack@basf.com",
-        "phone": "+49 30 2005-56683"
       }
     },
     {
