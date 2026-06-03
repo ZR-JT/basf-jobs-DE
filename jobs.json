@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-03T12:42:35Z",
-  "total_active": 204,
+  "last_updated": "2026-06-03T19:50:48Z",
+  "total_active": 203,
   "jobs": [
     {
       "job_id": "139334",
@@ -2456,7 +2456,7 @@
       "country": "Germany",
       "company": "BASF InfraService & Solutions Lausitz GmbH",
       "business_unit": "EMEA",
-      "department": "ESS/TW Crisis Management",
+      "department": "ESS/CSE Crisis Management",
       "job_field": "Environment, Health & Safety",
       "job_level": "Professional",
       "job_type": "Temporary",
@@ -3358,27 +3358,6 @@
         "name": "Tina Le",
         "email": "tina.le@basf.com",
         "phone": "+49 30 2005-56367"
-      }
-    },
-    {
-      "job_id": "119646",
-      "title": "Ausbildung Physiklaborant:in (m/w/d)",
-      "url": "https://basf.jobs/job-invite/119646/?locale=en_US",
-      "city": "Ludwigshafen am Rhein",
-      "state": "Rheinland-Pfalz",
-      "country": "Germany",
-      "company": "BASF SE",
-      "department": "ESH/VL Voc. Training Laboratory Assistants",
-      "job_field": "Research & Development",
-      "job_level": "Pupil (only Germany)",
-      "job_type": "Temporary",
-      "hybrid": false,
-      "date_posted": "2025-08-14T06:58:24Z",
-      "description": "ELEMENTE DEINER AUSBILDUNG &#13; Du steckst voller Energie und mit \"Kelvin\" meinst du nicht das Modelabel? Wenn du an Lux und Ampere denkst, geht dir ein Licht auf und du kannst es nicht abwarten, endlich im Labor zu stehen? Mit Hilfe moderner Geräte erforschst du Eigenschaften von Stoffen und Produkten oder du automatisierst die Steuerung unserer Messanlagen - du kannst also gespannt sein! DAS LERNST DU WÄHREND DEINER AUSBILDUNG &#13; Durchführen physikalischer Messungen und Versuchsreihen Ausw",
-      "recruiter": {
-        "name": "Mariya Budkevych",
-        "email": "mariya.budkevych@basf.com",
-        "phone": "+49 30 2005-56363"
       }
     },
     {
